@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Depression Detection AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Depression Detection System</h1>
+    <p class="subtitle">AI-powered mental health text analysis</p>
+
+    <textarea id="textInput" placeholder="Enter Reddit-style text..."></textarea>
+
+    <button id="analyzeBtn" onclick="predict()">Analyze</button>
+
+    <div id="result" class="result"></div>
+
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <p class="disclaimer">
+        This system is for academic research purposes only and is not a medical diagnostic tool.
+    </p>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
